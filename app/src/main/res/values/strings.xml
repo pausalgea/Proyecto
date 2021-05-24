@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ElectronicPlay</string>
+    <string name="nombre_app">Electronic Play!!</string>
+    <string name="subtitulo">Repasa tus conocimientos de electrónica con Electronic Play!!</string>
+    <string name="b_resistencias">Resistencias: Código de colores</string>
+    <string name="b_simbologia">Simbología</string>
+    <string name="b_ohm">Ley de Ohm</string>
+    <string name="calculadora">Calculadora de resistencias por código de colores</string>
+    <string name="subtitulo_calculadora">Elije los colores para calcular el valor de la resistencia</string>
+    <string name="banda1">Banda 1</string>
+    <string name="banda2">Banda 2</string>
+    <string name="multiplicador">Multiplicador</string>
+    <string name="tolerancia">Tolerancia</string>
+    <string name="b_salir">Salir</string>
+    <string name="descripcion_image1">Imagen triángulo ley de Ohm</string>
+    <string name="descripcion_image2">Imagen de una resistencia</string>
+    <string name="descripcion_image3">Imagen de un interruptor</string>
+    <string name="mensaje_simbologia">Identifica la simbologia eléctrica del siguiente elemento:</string>
+    <string name="descripcion_simbologia">Imagen de un símbolo a identificar por el usuario</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="puntuacion_inicial">Puntuación=0</string>
+    <string-array name="colores">
+        <item>0. Negro</item>
+        <item>1. Marrón</item>
+        <item>2. Rojo</item>
+        <item>3. Naranja</item>
+        <item>4. Amarillo</item>
+        <item>5. Verde</item>
+        <item>6. Azul</item>
+        <item>7. Violeta</item>
+        <item>8. Gris</item>
+        <item>9. Blanco</item>
+    </string-array>
+    <string-array name="colores_sin_negro">
+        <item>1. Marrón</item>
+        <item>2. Rojo</item>
+        <item>3. Naranja</item>
+        <item>4. Amarillo</item>
+        <item>5. Verde</item>
+        <item>6. Azul</item>
+        <item>7. Violeta</item>
+        <item>8. Gris</item>
+        <item>9. Blanco</item>
+    </string-array>
+    <string-array name="colores_tolerancia">
+        <item>2% Rojo</item>
+        <item>5% Dorado</item>
+        <item>10% Plata</item>
+    </string-array>
+    <string-array name="respuestas">
+        <item>Resistencia;Condensador;*Pila;Voltímetro</item>
+        <item>Amperímetro;Diodo led;Fusible;*Diodo</item>
+        <item>Resistencia;Diodo;*Bombilla;Voltímetro</item>
+        <item>*Transistor NPN;Transistor PNP;Diodo led;Zumbador</item>
+        <item>Condensador;*Interruptor;Pila;Bombilla</item>
+        <item>Resistencia;Amperímetro;Fusible;*Zumbador</item>
+        <item>Voltímetro;*Amperímetro;Diodo;Condensador</item>
+        <item>Fusible;*Voltímetro;Amperímetro;Interruptor</item>
+        <item>Fusible;Transistor NPN;Diodo led;*Resistencia</item>
+        <item>Resistencia;Bombilla;*Potenciómetro;Fusible</item>
+    </string-array>
+</resources>

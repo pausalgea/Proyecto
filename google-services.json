@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659285259072",
+    "project_id": "electronicplay",
+    "storage_bucket": "electronicplay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659285259072:android:edfc4d5c3d1ba3dc1700a5",
+        "android_client_info": {
+          "package_name": "com.cidead.proyecto.electronicplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659285259072-gaoe7ppu7dt8a49mhtrp9mm7p99teu24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2T_3ixLdTD7H1Ewba2JT1AOV-x7AXFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659285259072-gaoe7ppu7dt8a49mhtrp9mm7p99teu24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
