@@ -45,7 +45,7 @@
         android:fontFamily="@font/baumans"
         android:text="@string/calculadora"
         android:textColor="@color/color_texto"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

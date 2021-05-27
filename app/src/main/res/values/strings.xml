@@ -19,6 +19,16 @@
     <string name="descripcion_simbologia">Imagen de un símbolo a identificar por el usuario</string>
     <string name="siguiente">Siguiente</string>
     <string name="puntuacion_inicial">Puntuación=0</string>
+    <string name="ohm_titulo">Calculadora ley de Ohm</string>
+    <string name="ohm_subtitulo">¿Qué magnitud necesitas calcular?</string>
+    <string name="intensidad">Intensidad</string>
+    <string name="voltaje">Voltaje</string>
+    <string name="resistencia">Resistencia</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="textoResistenciaOhm">Introduce valor de la resistencia</string>
+    <string name="textoVoltajeOhm">Introduce valor del voltaje</string>
+    <string name="textoIntensidadOhm">Introduce valor de la intensidad</string>
+    <string name="calcular">Calcular</string>
     <string-array name="colores">
         <item>0. Negro</item>
         <item>1. Marrón</item>

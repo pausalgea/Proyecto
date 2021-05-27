@@ -4,6 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo_app"
+    android:orientation="vertical"
     tools:context=".OhmActivity">
 
+    <TextView
+        android:id="@+id/titulo_ohm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="@font/baumans"
+        android:text="@string/ohm_titulo"
+        android:textColor="@color/color_texto"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitulo_ohm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/baumans"
+        android:gravity="center"
+        android:text="@string/ohm_subtitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgOhm"
+        android:layout_width="190dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbIntensidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intensidad" />
+
+        <RadioButton
+            android:id="@+id/rbVoltaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voltaje" />
+
+        <RadioButton
+            android:id="@+id/rbResistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resistencia" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="415dp"
+        android:text="@string/aceptar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bSalirCalculadoraOhm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="484dp"
+        android:text="@string/b_salir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
