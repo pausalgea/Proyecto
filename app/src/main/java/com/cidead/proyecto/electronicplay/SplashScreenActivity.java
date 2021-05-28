@@ -9,8 +9,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Clase SplashScreenActivity , clase que muestra la imagen inicial de la aplicación
+ * @author Paula Salicio
+ */
 public class SplashScreenActivity extends AppCompatActivity {
-
+    /**
+     * Método onCreate para la clase SplashScreenActivity
+     * @param savedInstanceState parametro de tipo Bundle del método onCreate
+     */
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
